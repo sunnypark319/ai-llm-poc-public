@@ -9,11 +9,7 @@ load_dotenv()
 api_key = st.secrets["OPENAI_API_KEY"]
 client = OpenAI(api_key=api_key)
 
-# 캐시 초기화 버튼
-if st.button("캐시 초기화"):
-    st.cache_data.clear()
-    st.cache_resource.clear()
-    st.rerun()
+
 
 # 페이지 기본 설정
 st.set_page_config(page_title="🃏 조커와 대화하기", layout="wide")
