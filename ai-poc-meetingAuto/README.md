@@ -1,4 +1,4 @@
-# 🎙️ 실시간 녹음 + 녹취록 생성 애플리케이션
+<img width="5012" height="1393" alt="그림1" src="https://github.com/user-attachments/assets/4061a450-c695-4bd4-bb6f-0f4777c429d0" /># 🎙️ 실시간 녹음 + 녹취록 생성 애플리케이션
 
 이 애플리케이션은 실시간 음성 녹음, 자동 음성 인식, 그리고 AI를 활용한 녹취록 및 요약 생성을 제공합니다.
 
@@ -80,6 +80,9 @@ streamlit run main.py
 - 멀티스레드 기반 오디오 녹음
 - WAV 파일 생성 및 관리
 - 에러 처리 및 리소스 정리
+
+  
+<img width="5012" height="1393" alt="그림1" src="https://github.com/user-attachments/assets/3ff52c64-4cc2-43dd-a30f-ac0c98c909bc" />
 
 #### 4. **TranscriptionService (`transcription_service.py`)**
 - OpenAI API 통합
